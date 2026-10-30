@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@id/ad_sdk_native_ad_choices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/ad_sdk_native_icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:adjustViewBounds="true"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.12"
+        tools:src="@tools:sample/avatars" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/ad_sdk_native_ad_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/bg_language_native_ad_attribute_new"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_3sdp"
+        android:paddingVertical="@dimen/_1sdp"
+        android:text="Ad"
+        android:textColor="#000000"
+        android:textSize="@dimen/_8sdp"
+        app:layout_constraintStart_toEndOf="@id/ad_sdk_native_icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/ad_sdk_native_headline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toStartOf="@id/ad_sdk_native_ad_choices"
+        app:layout_constraintBottom_toBottomOf="@id/ad_sdk_native_ad_label"
+        app:layout_constraintStart_toEndOf="@id/ad_sdk_native_ad_label"
+        app:layout_constraintTop_toTopOf="@id/ad_sdk_native_ad_label"
+        tools:text="@tools:sample/lorem/random" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/ad_sdk_native_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ad_sdk_native_icon"
+        app:layout_constraintTop_toBottomOf="@id/ad_sdk_native_ad_label"
+        app:layout_goneMarginTop="@dimen/_5sdp"
+        tools:text="@tools:sample/lorem/random" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="ad_sdk_native_icon,ad_sdk_native_body" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/ad_sdk_native_cta"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:textAllCaps="false"
+        android:backgroundTint="#02AA1A"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_13sdp"
+        app:cornerRadius="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrier_bottom"
+        tools:text="Install" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="2dp"
+    android:paddingTop="6dp"
+    android:paddingEnd="2dp"
+    android:paddingBottom="6dp">
+
+    <LinearLayout
+        android:id="@id/item_contact_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_clickable"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <FrameLayout
+            android:id="@+id/favorite_avatar_holder"
+            android:layout_width="68dp"
+            android:layout_height="64dp">
+
+            <ImageView
+                android:id="@id/item_contact_image"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_person_vector" />
+
+            <ImageView
+                android:id="@+id/favorite_remove_badge"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top|end"
+                android:contentDescription="@string/favorites_remove"
+                android:padding="5dp"
+                android:src="@drawable/ic_cross_vector"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@id/item_contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="2dp"
+            android:maxLines="2"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textColor="@color/home_item_title_text"
+            android:textSize="12.5sp"
+            tools:text="Liam Carter" />
+
+        <ImageView
+            android:id="@id/drag_handle_icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

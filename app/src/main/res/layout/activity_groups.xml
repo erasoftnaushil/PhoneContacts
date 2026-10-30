@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/groups_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/groups_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/home_page_bg"
+        app:title="@string/groups"
+        app:titleTextAppearance="@style/AppTheme.ActionBar.TitleTextStyle" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/groups_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/groups_search_holder"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/groups_search_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_search_vector" />
+
+                <EditText
+                    android:id="@+id/groups_search_input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/search_contacts"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="8dp"
+                    android:singleLine="true"
+                    android:textColor="@color/home_item_title_text"
+                    android:textColorHint="@color/home_search_hint"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/groups_add_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:contentDescription="@string/create_group"
+                    android:focusable="true"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_group_add_header" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/groups_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <org.fossify.commons.views.MyTextView
+                    android:id="@+id/groups_placeholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/activity_margin"
+                    android:paddingTop="@dimen/activity_margin"
+                    android:paddingEnd="@dimen/activity_margin"
+                    android:text="@string/no_group_created"
+                    android:textSize="@dimen/bigger_text_size"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <org.fossify.commons.views.MyTextView
+                    android:id="@+id/groups_placeholder_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/groups_placeholder"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ripple_all_corners"
+                    android:gravity="center"
+                    android:padding="@dimen/activity_margin"
+                    android:text="@string/create_group"
+                    android:textSize="@dimen/bigger_text_size"
+                    android:visibility="gone" />
+
+                <com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
+                    android:id="@+id/groups_fastscroller"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <org.fossify.commons.views.MyRecyclerView
+                        android:id="@+id/groups_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        android:layoutAnimation="@anim/layout_animation"
+                        android:paddingBottom="24dp"
+                        android:scrollbars="none"
+                        app:layoutManager="org.fossify.commons.views.MyLinearLayoutManager" />
+
+                </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <org.fossify.commons.views.MyFloatingActionButton
+            android:id="@+id/groups_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/activity_margin"
+            android:src="@drawable/ic_plus_vector"
+            android:visibility="gone" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

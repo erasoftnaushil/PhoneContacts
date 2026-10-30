@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Permission SDK</string>
+    <string name="permission_sdk_cdo_activity">CallerIdActivity</string>
+</resources>

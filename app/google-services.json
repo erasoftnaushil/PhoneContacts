@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269685992074",
+    "project_id": "contacts---kaushik",
+    "storage_bucket": "contacts---kaushik.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269685992074:android:e2d51ba15aa58a9a805b73",
+        "android_client_info": {
+          "package_name": "com.contactsapp2025.universal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs5rp4b2bTbRsPsyLxgrq8E6mk3Na-xdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

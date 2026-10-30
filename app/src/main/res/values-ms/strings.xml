@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="languages">Bahasa</string>
+    <string name="address">Alamat</string>
+    <string name="street">Jalan</string>
+    <string name="neighborhood">Nombor apartmen atau suite</string>
+    <string name="city">Bandar</string>
+    <string name="postcode">Poskod</string>
+    <string name="pobox">Petis surat</string>
+    <string name="region">Negeri</string>
+    <string name="country">Negara</string>
+    <string name="inserting">Sedang memasukkan…</string>
+    <string name="updating">Sedang mengemas kini…</string>
+    <string name="phone_storage">Storan telefon</string>
+    <string name="phone_storage_hidden">Storan telefon (tidak dapat dilihat oleh aplikasi lain)</string>
+    <string name="company">Syarikat</string>
+    <string name="job_position">Jawatan</string>
+    <string name="send_sms_to_contacts">Hantar SMS kepada kenalan</string>
+    <string name="send_email_to_contacts">Hantar e-mel kepada kenalan</string>
+    <string name="send_sms_to_group">Hantar SMS kepada kumpulan</string>
+    <string name="send_email_to_group">Hantar e-mel kepada kumpulan</string>
+    <string name="fields_empty">Sekurang-kurangnya 1 medan perlu diisi</string>
+
+    <!-- Placeholders -->
+    <string name="no_contacts_with_emails">Tiada kenalan dengan e-mel ditemui</string>
+    <string name="no_contacts_with_phone_numbers">Tiada kenalan dengan nombor telefon ditemui</string>
+
+    <string name="new_contact">Kenalan baharu</string>
+    <string name="edit_contact">Sunting kenalan</string>
+    <string name="select_contact">Pilih kenalan</string>
+    <string name="nickname">Nama panggilan</string>
+    <string name="select_account">Pilih akaun</string>
+    <string name="deleting_contacts_progress">Menghapuskan %d kenalan…</string>
+
+    <!-- Groups -->
+    <string name="no_groups">Tiada kumpulan</string>
+    <string name="create_new_group">Buat kumpulan baharu</string>
+    <string name="remove_from_group">Keluarkan daripada kumpulan</string>
+    <string name="no_group_participants">Kumpulan ini kosong</string>
+    <string name="add_contacts">Tambah kenalan</string>
+    <string name="no_group_created">Tiada kumpulan kenalan pada peranti</string>
+    <string name="create_group">Buat kumpulan</string>
+    <string name="add_to_group">Tambah ke kumpulan</string>
+    <string name="create_group_under_account">Buat kumpulan di bawah akaun</string>
+
+    <!-- Photo -->
+    <string name="remove_photo">Alih keluar foto</string>
+    <string name="change_photo">Tukar foto</string>
+
+    <!-- Settings -->
+    <string name="show_phone_numbers">Tunjukkan nombor telefon</string>
+    <string name="show_contact_thumbnails">Tunjukkan lakaran kenalan</string>
+    <string name="format_phone_numbers">Format nombor telefon</string>
+    <string name="show_dialpad_button">Tunjukkan butang dail pada skrin utama</string>
+    <string name="on_contact_click">Apabila klik pada kenalan</string>
+    <string name="call_contact">Panggil kenalan</string>
+    <string name="view_contact">Lihat butiran kenalan</string>
+    <string name="manage_shown_contact_fields">Urus medan kenalan yang dipaparkan</string>
+    <string name="contacts">Kenalan</string>
+    <string name="show_only_contacts_with_numbers">Tunjukkan hanya kenalan dengan nombor telefon</string>
+    <string name="merge_duplicate_contacts">Gabungkan kenalan pendua</string>
+
+    <!-- Favorites -->
+    <string name="no_favorites">Nampaknya anda belum menambah sebarang kenalan kegemaran lagi.</string>
+    <string name="toggle_favorite">Tukar kegemaran</string>
+
+    <!-- Search -->
+    <string name="search_contacts">Cari kenalan</string>
+    <string name="search_favorites">Cari kegemaran</string>
+    <string name="search_groups">Cari kumpulan</string>
+
+    <!-- Export / Import -->
+    <string name="import_contacts">Import kenalan</string>
+    <string name="export_contacts">Eksport kenalan</string>
+    <string name="import_contacts_from_vcf">Import kenalan daripada fail .vcf</string>
+    <string name="export_contacts_to_vcf">Eksport kenalan ke fail .vcf</string>
+    <string name="target_contact_source">Sumber kenalan sasaran</string>
+    <string name="include_contact_sources">Sertakan sumber kenalan</string>
+    <string name="filename_without_vcf">Nama fail (tanpa .vcf)</string>
+
+    <!-- Dialpad -->
+    <string name="dialpad">Dail</string>
+    <string name="add_number_to_contact">Tambah nombor ke kenalan</string>
+
+    <!-- Visible fields -->
+    <string name="prefix">Awalan</string>
+    <string name="suffix">Akhiran</string>
+    <string name="phone_numbers">Nombor telefon</string>
+    <string name="emails">E-mel</string>
+    <string name="addresses">Alamat</string>
+    <string name="structured_addresses">Alamat berstruktur (mod suntingan)</string>
+    <string name="events">Acara (hari lahir, ulang tahun)</string>
+    <string name="organization">Organisasi</string>
+    <string name="websites">Laman web</string>
+    <string name="groups">Kumpulan</string>
+    <string name="contact_source">Sumber kenalan</string>
+    <string name="instant_messaging">Pemesejan segera (IM)</string>
+    <string name="ringtone">Nada dering</string>
+
+    <!-- Confirmation dialog -->
+    <string name="delete_from_all_sources">Kenalan akan dialih keluar daripada semua sumber kenalan.</string>
+
+    <plurals name="delete_groups">
+        <item quantity="one">%d kumpulan</item>
+        <item quantity="other">%d kumpulan</item>
+    </plurals>
+
+    <string name="text_privacy_desc_2" translatable="false">By continuing, you agree to the our Privacy Policy</string>
+    <string name="add_phone_number">Tambah nombor telefon</string>
+    <string name="add_email">Tambah e-mel</string>
+    <string name="add_address">Tambah alamat</string>
+    <string name="add_im">Tambah IM</string>
+    <string name="add_birthday">Tambah hari lahir</string>
+    <string name="add_website">Tambah laman web</string>
+    <string name="add_group">Tambah kumpulan</string>
+
+    <string name="need_some_permission_for_smothly_exeperience">Beberapa kebenaran diperlukan untuk pengalaman yang lancar</string>
+    <string name="allow">Benarkan</string>
+    <string name="almost_there_njust_one_more_step">Hampir siap!\nTinggal satu langkah lagi</string>
+    <string name="view_caller_details_instantly_after_every_call_helping_you_stay_organized_and_efficient_allow_this_app_to_appear_over_others_for_quick_replies_and_seamless_access">Lihat butiran pemanggil serta-merta selepas setiap panggilan untuk kekal teratur dan cekap. Benarkan aplikasi ini muncul di atas aplikasi lain untuk balasan pantas dan akses tanpa gangguan.</string>
+    <string name="why_this_is_needed">💡 Mengapa ini diperlukan</string>
+    <string name="enable_after_call_features_for_a_better_experience_n_quick_access_after_calls">• Aktifkan ciri selepas panggilan untuk pengalaman lebih baik\n• Akses pantas selepas panggilan</string>
+    <string name="allow_permission">Benarkan kebenaran</string>
+
+</resources>

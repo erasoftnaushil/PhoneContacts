@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewSystemDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Default"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textViewLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textViewDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dark"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"/>
+
+</LinearLayout>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_call_history_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingStart="14dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="12dp">
+
+    <ImageView
+        android:id="@+id/item_call_history_image"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@drawable/ic_person_vector"
+        app:layout_constraintBottom_toTopOf="@+id/item_call_history_bottom_barrier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item_call_history_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+        android:textColor="@color/home_item_title_text"
+        android:textDirection="locale"
+        android:textSize="15.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/item_call_history_details_holder"
+        app:layout_constraintEnd_toStartOf="@+id/item_call_history_datetime_holder"
+        app:layout_constraintStart_toEndOf="@+id/item_call_history_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="James Peckham" />
+
+    <LinearLayout
+        android:id="@+id/item_call_history_details_holder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/item_call_history_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@+id/item_call_history_datetime_holder"
+        app:layout_constraintStart_toEndOf="@+id/item_call_history_image"
+        app:layout_constraintTop_toBottomOf="@+id/item_call_history_name">
+
+        <ImageView
+            android:id="@+id/item_call_history_type_icon"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_call_outgoing_vector" />
+
+        <TextView
+            android:id="@+id/item_call_history_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="@color/home_item_subtitle_text"
+            android:textDirection="locale"
+            android:textSize="12.5sp"
+            android:visibility="gone"
+            tools:text="Outgoing" />
+
+        <TextView
+            android:id="@+id/item_call_history_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="@color/home_item_subtitle_text"
+            android:textSize="12.5sp"
+            android:visibility="gone"
+            tools:text="23 Oct" />
+
+        <TextView
+            android:id="@+id/item_call_history_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="@color/home_item_subtitle_text"
+            android:textSize="12.5sp"
+            tools:text="07:17 PM  •  SIM1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_call_history_datetime_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:gravity="end"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/item_call_history_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@+id/item_call_history_call_icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/item_call_history_call_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="9dp"
+        android:src="@drawable/ic_phone_vector"
+        app:layout_constraintBottom_toTopOf="@+id/item_call_history_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@+id/item_call_history_chevron"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/home_call_btn_icon" />
+
+    <ImageView
+        android:id="@+id/item_call_history_chevron"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_chevron_right_call"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/item_call_history_bottom_barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/item_call_history_bottom_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="item_call_history_image,item_call_history_details_holder,item_call_history_datetime_holder,item_call_history_call_icon" />
+
+    <LinearLayout
+        android:id="@+id/item_call_history_expanded_holder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_call_history_bottom_barrier"
+        tools:visibility="visible">
+
+        <View
+            android:id="@+id/item_call_history_expanded_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/home_item_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:id="@+id/btn_action_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/img_action_text"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_action_text_vector"
+                    app:tint="@color/home_item_title_text" />
+
+                <TextView
+                    android:id="@+id/txt_action_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/action_text"
+                    android:textColor="@color/home_item_title_text"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_action_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/img_action_video"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_action_video_vector"
+                    app:tint="@color/home_item_title_text" />
+
+                <TextView
+                    android:id="@+id/txt_action_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/action_video"
+                    android:textColor="@color/home_item_title_text"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_action_block"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/img_action_block"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_action_block_vector"
+                    app:tint="@color/home_item_title_text" />
+
+                <TextView
+                    android:id="@+id/txt_action_block"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/action_block"
+                    android:textColor="@color/home_item_title_text"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_action_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/img_action_info"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_action_info_vector"
+                    app:tint="@color/home_item_title_text" />
+
+                <TextView
+                    android:id="@+id/txt_action_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/action_info"
+                    android:textColor="@color/home_item_title_text"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_call_history_divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/home_item_divider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_call_history_expanded_holder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

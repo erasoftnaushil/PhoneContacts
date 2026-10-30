@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_launcher_name" translatable="false">Phone Contacts</string>
+    <string name="app_name_with_hash" translatable="false">#Phone Contacts</string>
+
+    <string name="languages">Languages</string>
+    <string name="address">Address</string>
+    <string name="street">Street</string>
+    <string name="neighborhood">Apartment or suite number</string>
+    <string name="city">City</string>
+    <string name="postcode">Postal code</string>
+    <string name="pobox">Post office box</string>
+    <string name="region">State</string>
+    <string name="country">Country</string>
+    <string name="updating">Updating…</string>
+    <string name="inserting">Inserting…</string>
+    <string name="phone_storage">Phone storage</string>
+    <string name="phone_storage_hidden">Phone storage (not visible by other apps)</string>
+    <string name="company">Company</string>
+    <string name="job_position">Job position</string>
+    <string name="send_sms_to_contacts">Send SMS to contacts</string>
+    <string name="send_email_to_contacts">Send email to contacts</string>
+    <string name="send_sms_to_group">Send SMS to group</string>
+    <string name="send_email_to_group">Send email to group</string>
+    <string name="fields_empty">At least 1 field has to be filled out</string>
+
+    <!-- Placeholders -->
+    <string name="no_contacts_with_emails">No contacts with emails have been found</string>
+    <string name="no_contacts_with_phone_numbers">No contacts with phone numbers have been found</string>
+
+    <string name="new_contact">New contact</string>
+    <string name="edit_contact">Edit contact</string>
+    <string name="select_contact">Select contact</string>
+    <string name="nickname">Nickname</string>
+    <!-- Groups -->
+    <string name="no_groups">No groups</string>
+    <string name="create_new_group">Create a new group</string>
+    <string name="remove_from_group">Remove from group</string>
+    <string name="no_group_participants">This group is empty</string>
+    <string name="add_contacts">Add contacts</string>
+    <string name="no_group_created">There are no contact groups on the device</string>
+    <string name="create_group">Create group</string>
+    <string name="create_group_title">Create Group</string>
+    <string name="rename_group_title">Rename Group</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="add_to_group">Add to group</string>
+    <string name="create_group_under_account">Create group under account</string>
+
+    <!-- Photo -->
+    <string name="remove_photo">Remove photo</string>
+    <string name="change_photo">Change photo</string>
+
+    <!-- Settings -->
+    <string name="show_phone_numbers">Show phone numbers</string>
+    <string name="show_contact_thumbnails">Show contact thumbnails</string>
+    <string name="format_phone_numbers">Format phone numbers</string>
+    <string name="show_dialpad_button">Show a dialpad button on the main screen</string>
+    <string name="on_contact_click">On contact click</string>
+    <string name="call_contact">Call contact</string>
+    <string name="view_contact">View contact details</string>
+    <string name="contacts">Contacts</string>
+    <string name="manage_shown_contact_fields">Manage shown contact fields</string>
+    <string name="show_only_contacts_with_numbers">Show only contacts with phone numbers</string>
+    <string name="merge_duplicate_contacts">Merge duplicate contacts</string>
+
+    <!-- Favorites -->
+    <string name="no_favorites">Seems like you haven\'t added any favorite contacts yet.</string>
+    <string name="toggle_favorite">Toggle favorite</string>
+
+    <!-- Search -->
+    <string name="search_contacts">Search contacts</string>
+    <string name="search_favorites">Search favorites</string>
+    <string name="search_groups">Search groups</string>
+    <string name="search_contacts_or_number">Search contacts or number</string>
+
+    <!-- Call History Filters & Sections -->
+    <string name="filter_all">All</string>
+    <string name="filter_outgoing">Outgoing</string>
+    <string name="filter_incoming">Incoming</string>
+    <string name="filter_missed">Missed</string>
+    <string name="filter_blocked">Blocked</string>
+    <string name="menu_all_calls">All Calls</string>
+    <string name="menu_outgoing_calls">Outgoing calls</string>
+    <string name="menu_incoming_calls">Incoming calls</string>
+    <string name="menu_missed_calls">Missed calls</string>
+    <string name="menu_blocked_calls">Blocked calls</string>
+    <string name="action_text">Text</string>
+    <string name="action_video">Video</string>
+    <string name="action_block">Block</string>
+    <string name="action_unblock">Unblock</string>
+    <string name="action_info">Info</string>
+    <string name="favourites_section">Favourites</string>
+    <string name="number_blocked_toast">Number blocked</string>
+    <string name="number_unblocked_toast">Number unblocked</string>
+    <string name="section_today">Today</string>
+    <string name="section_yesterday">Yesterday</string>
+    <string name="section_earlier">Earlier</string>
+    <string name="calls_count_one">%d call</string>
+    <string name="calls_count_other">%d calls</string>
+    <string name="calls_rejected">Rejected</string>
+    <string name="calls_voicemail">Voicemail</string>
+    <string name="call_history_title">Call History</string>
+    <string name="view_contact_details_action">View contact details</string>
+    <string name="favorites_menu">Favorites</string>
+    <string name="block_contact_title">Block Contact?</string>
+    <string name="block_contact_message">You Will no longer receive any calls or messages from this contact.</string>
+    <string name="unblock_contact_title">Unblock Contact?</string>
+    <string name="unblock_contact_message">You will be able to receive calls and messages from this contact again.</string>
+    <string name="are_you_sure_title">Are You Sure?</string>
+    <string name="delete_contact_message">Remove the selected contacts from your list. This action cannot be undone.</string>
+    <string name="email_label">Email</string>
+    <string name="place_label">Place</string>
+    <string name="website_label">Website</string>
+    <string name="incoming_call_label">Incoming call</string>
+    <string name="outgoing_call_label">outgoing call</string>
+    <string name="missed_call_label">Missed call</string>
+    <string name="rejected_call_label">Rejected call</string>
+    <string name="blocked_call_label">Blocked call</string>
+    <string name="call_duration_mins_secs">%1$d mins %2$d secs</string>
+
+    <!-- Export / Import -->
+    <string name="import_contacts">Import contacts</string>
+    <string name="export_contacts">Export contacts</string>
+    <string name="import_contacts_from_vcf">Import contacts from a .vcf file</string>
+    <string name="export_contacts_to_vcf">Export contacts to a .vcf file</string>
+    <string name="target_contact_source">Target contact source</string>
+    <string name="include_contact_sources">Include contact sources</string>
+    <string name="filename_without_vcf">Filename (without .vcf)</string>
+
+    <!-- Dialpad -->
+    <string name="dialpad">Dialpad</string>
+    <string name="add_number_to_contact">Add number to contact</string>
+
+    <!-- Visible fields -->
+    <string name="prefix">Prefix</string>
+    <string name="suffix">Suffix</string>
+    <string name="phone_numbers">Phone numbers</string>
+    <string name="emails">Emails</string>
+    <string name="addresses">Addresses</string>
+    <string name="events">Events (birthdays, anniversaries)</string>
+    <string name="organization">Organization</string>
+    <string name="websites">Websites</string>
+    <string name="groups">Groups</string>
+    <string name="contact_source">Contact source</string>
+    <string name="instant_messaging">Instant messaging (IM)</string>
+    <string name="ringtone">Ringtone</string>
+
+    <!-- Confirmation dialog -->
+    <string name="delete_from_all_sources">The contact will be removed from all contact sources.</string>
+
+    <plurals name="delete_groups">
+        <item quantity="one">%d group</item>
+        <item quantity="other">%d groups</item>
+    </plurals>
+
+    <string name="text_privacy_desc_2" translatable="false">By continuing, you agree to the our Privacy Policy</string>
+    <string name="structured_addresses">Structured addresses (edit mode)</string>
+    <string name="select_account">Select account</string>
+    <string name="add_phone_number">Add phone number</string>
+    <string name="deleting_contacts_progress">Deleting %d contacts…</string>
+
+    <string name="add_email">Add email</string>
+    <string name="add_address">Add address</string>
+    <string name="add_im">Add IM</string>
+    <string name="add_birthday">Add birthday</string>
+    <string name="add_website">Add website</string>
+    <string name="add_group">Add group</string>
+    <string name="need_some_permission_for_smothly_exeperience">Need some permission for smoothly exeperience</string>
+    <string name="allow">Allow</string>
+    <string name="almost_there_njust_one_more_step">Almost There! \nJust One More Step</string>
+    <string name="view_caller_details_instantly_after_every_call_helping_you_stay_organized_and_efficient_allow_this_app_to_appear_over_others_for_quick_replies_and_seamless_access">View caller details instantly after every call, helping you stay organized and efficient. Allow this app to appear over others for quick replies and seamless access.</string>
+    <string name="why_this_is_needed">💡 Why this is needed</string>
+    <string name="enable_after_call_features_for_a_better_experience_n_quick_access_after_calls">• Enable after call features for a better experience\n• Quick access after calls</string>
+    <string name="allow_permission">Allow Permission</string>
+
+
+    <string name="pp_app_name" translatable="false">Welcome to a new\nkind of <b>Phone Contact</b></string>
+    <string name="one_last_step" translatable="false">
+    <b>One</b> last step!</string>
+
+    <!-- Dialpad -->
+    <string name="dialpad_close">Close</string>
+    <string name="dialpad_delete">Delete</string>
+    <string name="dialpad_search_hint">Search contacts</string>
+    <string name="dialpad_contacts_header">Contact</string>
+    <string name="dialpad_add_to_contact">Add to a contact</string>
+    <string name="dialpad_send_message">Send a message</string>
+    <string name="dialpad_no_recents">No recent calls</string>
+
+    <!-- Favorites tab -->
+    <string name="options">Options</string>
+    <string name="edit_favorites">Edit favorites</string>
+    <string name="edit_favorites_hint">Tap × to remove. Long-press and drag to reorder.</string>
+    <string name="display_mode">Display mode</string>
+    <string name="display_mode_grid">Grid</string>
+    <string name="display_mode_list">List</string>
+    <string name="apply">Apply</string>
+    <string name="pick_contact">Pick contact</string>
+    <string name="favourites_header">Favourites</string>
+    <string name="favorites_remove">Remove from favorites</string>
+</resources>

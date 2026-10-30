@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_launcher_name">رابطے</string>
+    <string name="address">پتہ</string>
+    <string name="languages">زبانیں</string>
+    <string name="neighborhood">اپارٹمنٹ یا سویٹ نمبر</string>
+    <string name="updating">تازہ کاری…</string>
+    <string name="street">گلی</string>
+    <string name="inserting">شامل کیتا جا رہا اے۔ ۔ ۔</string>
+    <string name="phone_storage">فون دی سٹوریج</string>
+    <string name="phone_storage_hidden">فون دی سٹوریج (ہور اَیپاں نوں نظر نہیں آؤندی)</string>
+    <string name="company">کمپنی</string>
+    <string name="job_position">کم کار</string>
+    <string name="send_sms_to_contacts">رابطیاں نوں سنیہا بھیجو</string>
+    <string name="send_email_to_contacts">رابطیاں نوں ای‌میل بھیجو</string>
+    <string name="send_sms_to_group">سموہ نوں سنیہا بھیجو</string>
+    <string name="send_email_to_group">سموہ نوں ای‌میل بھیجو</string>
+    <string name="fields_empty">گٹھو گھٹ اِکّ تھاں وچ کجھ لکھت پایو</string>
+    <string name="new_contact">نواں رابطہ</string>
+    <string name="edit_contact">رابطے دے ویروے سودھو</string>
+    <string name="select_contact">رابطہ چݨو</string>
+    <string name="no_groups">کوئی سمُدے نہیں اے</string>
+    <string name="create_new_group">نواں سموہ بݨاؤ</string>
+    <string name="remove_from_group">سموہ وچ ہٹاؤ</string>
+    <string name="add_contacts">رابطے پایو</string>
+    <string name="create_group">سموہ بݨاؤ</string>
+    <string name="add_to_group">سموہ وچ جوڑو</string>
+    <string name="create_group_under_account">کھاتے نال سمُدا بݨاؤ</string>
+    <string name="remove_photo">تصویر مٹاؤ</string>
+    <string name="change_photo">تصویر بدلو</string>
+    <string name="show_phone_numbers">فون نمبر ویکھو</string>
+    <string name="show_contact_thumbnails">رابطیاں لئی چھوٹیاں تصویراں ویکھو</string>
+    <string name="call_contact">رابطہ کال کرو</string>
+    <string name="view_contact">رابطے دے ویروے ویکھو</string>
+    <string name="contacts">رابطے</string>
+    <string name="search_contacts">رابطیاں وچ کھوجو</string>
+    <string name="search_groups">سموہاں وچ کھوجو</string>
+    <string name="import_contacts">رابطے ایمپورٹ کرو</string>
+    <string name="export_contacts">رابطے ایکپورٹ کرو</string>
+    <string name="include_contact_sources">رابطیاں دے سروتاں نال</string>
+    <string name="filename_without_vcf">فائل دا ناں (‫‎.vcf‬ بنہا)؜</string>
+    <string name="dialpad">فون کیبورڈ</string>
+    <string name="add_number_to_contact">رابطے نوں نمبر جوڑو</string>
+    <string name="prefix">سابقہ</string>
+    <string name="suffix">لاحقہ</string>
+    <string name="phone_numbers">فون نمبر</string>
+    <string name="emails">ای‌میل</string>
+    <string name="addresses">پتے</string>
+    <string name="events">ماجرے (شادی، اُسوَ، سماگم، وغیرہ)</string>
+    <string name="websites">ویب‌سائیٹاں</string>
+    <string name="groups">سموہ</string>
+    <string name="contact_source">رابطے دا سروت</string>
+    <string name="ringtone">رِنگٹون</string>
+    <plurals name="delete_groups">
+        <item quantity="one">‫%d‬ سموہ</item>
+        <item quantity="other">‫%d‬ سموہ</item>
+    </plurals>
+
+    <string name="city">شہر</string>
+    <string name="postcode">پوسٹل کوڈ</string>
+    <string name="pobox">پوسٹ آفس باکس</string>
+    <string name="region">ریاست</string>
+    <string name="country">ملک</string>
+
+    <string name="no_contacts_with_emails">ای میلز کے ساتھ کوئی رابطے نہیں ملے ہیں</string>
+    <string name="no_contacts_with_phone_numbers">فون نمبروں سے کوئی رابطے نہیں ملے ہیں</string>
+    <string name="nickname">عرفی نام</string>
+    <string name="no_group_created">آلہ پر رابطہ گروپ نہیں ہیں</string>
+    <string name="no_group_participants">یہ گروپ خالی ہے</string>
+    <string name="format_phone_numbers">فون نمبر فارمیٹ کریں</string>
+    <string name="show_dialpad_button">مرکزی اسکرین پر ڈائل پیڈ بٹن دکھائیں</string>
+    <string name="on_contact_click">رابطہ پر کلک کریں</string>
+
+    <string name="manage_shown_contact_fields">دکھائے گئے رابطہ فیلڈز کا نظم کریں</string>
+    <string name="show_only_contacts_with_numbers">صرف فون نمبروں والے رابطے دکھائیں</string>
+    <string name="merge_duplicate_contacts">ڈپلیکیٹ رابطے ضم کریں</string>
+    <string name="no_favorites">لگتا ہے آپ نے ابھی تک کوئی پسندیدہ رابطے شامل نہیں کیے ہیں۔</string>
+    <string name="toggle_favorite">پسندیدہ کو آن/آف کریں</string>
+    <string name="search_favorites">پسندیدہ تلاش کریں</string>
+    <string name="import_contacts_from_vcf">.vcf فائل سے رابطے درآمد کریں</string>
+    <string name="export_contacts_to_vcf">.vcf فائل میں رابطے برآمد کریں</string>
+    <string name="target_contact_source">ہدف رابطہ ماخذ</string>
+    <string name="structured_addresses">ساختہ پتے (ترمیمی موڈ)</string>
+    <string name="organization">تنظیم</string>
+    <string name="instant_messaging">انسٹنٹ میسجنگ (IM)</string>
+    <string name="delete_from_all_sources">رابطہ تمام ماخذ سے ہٹا دیا جائے گا۔</string>
+    <string name="add_phone_number">فون نمبر شامل کریں</string>
+    <string name="select_account">اکاؤنٹ منتخب کریں</string>
+    <string name="deleting_contacts_progress">٪d رابطوں کو حذف کرنا…</string>
+    <string name="add_email">ای میل شامل کریں</string>
+    <string name="add_address">پتہ شامل کریں</string>
+    <string name="add_im">IM شامل کریں</string>
+    <string name="add_birthday">جنم دن شامل کریں</string>
+    <string name="add_website">ویب سائٹ شامل کریں</string>
+    <string name="add_group">گروپ شامل کریں</string>
+
+    <string name="need_some_permission_for_smothly_exeperience">بہتر اور ہموار تجربے کے لیے کچھ اجازتوں کی ضرورت ہے</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="almost_there_njust_one_more_step">تقریباً مکمل!\nبس ایک قدم اور</string>
+    <string name="view_caller_details_instantly_after_every_call_helping_you_stay_organized_and_efficient_allow_this_app_to_appear_over_others_for_quick_replies_and_seamless_access">ہر کال کے بعد فوراً کالر کی تفصیلات دیکھیں، تاکہ آپ منظم اور مؤثر رہ سکیں۔ فوری جوابات اور آسان رسائی کے لیے اس ایپ کو دیگر ایپس کے اوپر ظاہر ہونے کی اجازت دیں۔</string>
+    <string name="why_this_is_needed">💡 یہ کیوں ضروری ہے</string>
+    <string name="enable_after_call_features_for_a_better_experience_n_quick_access_after_calls">• بہتر تجربے کے لیے کال کے بعد کی خصوصیات فعال کریں\n• کال کے بعد فوری رسائی</string>
+    <string name="allow_permission">اجازت دیں</string>
+
+
+</resources>

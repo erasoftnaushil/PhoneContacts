@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ads_loading_msg" translatable="false">Ads Loading...</string>
+    <string name="privacy_policy_link" translatable="false">https://privacypolicycenter.com/new/view/com.contactsapp2025.universal</string>
+
+    <string name="applovin_sdk_key" translatable="false">IB_91mxpReGBEpdVeoQu6ErPZ9OGvb7rmGW0ZNdmVQ5l3J0_L0vE3XGvTUQ8TXcQ3EOCrBzUW4d6t47QGsxHme</string>
+    <string name="cdo_00_banner_applovin_com_contactsapp2025_universal" translatable="false">503ccfc6704414a0</string>
+    <string name="applovin_home_banner_failed" translatable="false">1c0e8167190d15e4</string>
+
+    <string name="ads_unit_id" translatable="false">ca-app-pub-7931865379886926~5654475608</string>
+
+</resources>

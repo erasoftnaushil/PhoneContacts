@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="languages">ভাষাসমূহ</string>
+    <string name="address">ঠিকানা</string>
+    <string name="street">রাস্তা</string>
+    <string name="neighborhood">এপার্টমেন্ট বা সুইট নম্বর</string>
+    <string name="city">শহর</string>
+    <string name="postcode">পোস্টাল কোড</string>
+    <string name="pobox">ডাকঘর</string>
+    <string name="region">রাজ্য / প্রদেশ</string>
+    <string name="country">দেশ</string>
+    <string name="inserting">সংযুক্ত করা হচ্ছে…</string>
+    <string name="updating">আপডেট করা হচ্ছে…</string>
+    <string name="phone_storage">ফোন স্টোরেজ</string>
+    <string name="phone_storage_hidden">ফোন স্টোরেজ (অন্য অ্যাপ দ্বারা দৃশ্যমান নয়)</string>
+    <string name="company">কোম্পানি</string>
+    <string name="job_position">কর্মপদ</string>
+    <string name="send_sms_to_contacts">যোগাযোগগুলিতে এসএমএস পাঠান</string>
+    <string name="send_email_to_contacts">যোগাযোগগুলিতে ইমেল পাঠান</string>
+    <string name="send_sms_to_group">গ্রুপে এসএমএস পাঠান</string>
+    <string name="send_email_to_group">গ্রুপে ইমেল পাঠান</string>
+    <string name="fields_empty">অন্তত ১টি ক্ষেত্র পূরণ করা আবশ্যক</string>
+
+    <!-- Placeholders -->
+    <string name="no_contacts_with_emails">কোনও ইমেলসহ যোগাযোগ পাওয়া যায়নি</string>
+    <string name="no_contacts_with_phone_numbers">কোনও ফোন নম্বরসহ যোগাযোগ পাওয়া যায়নি</string>
+
+    <string name="new_contact">নতুন যোগাযোগ</string>
+    <string name="edit_contact">যোগাযোগ সম্পাদনা করুন</string>
+    <string name="select_contact">যোগাযোগ নির্বাচন করুন</string>
+    <string name="nickname">ডাকনাম</string>
+    <string name="select_account">অ্যাকাউন্ট নির্বাচন করুন</string>
+    <string name="deleting_contacts_progress">%d যোগাযোগ মুছে ফেলা হচ্ছে…</string>
+
+    <!-- Groups -->
+    <string name="no_groups">কোনও গ্রুপ নেই</string>
+    <string name="create_new_group">নতুন গ্রুপ তৈরি করুন</string>
+    <string name="remove_from_group">গ্রুপ থেকে সরান</string>
+    <string name="no_group_participants">এই গ্রুপটি খালি</string>
+    <string name="add_contacts">যোগাযোগ যোগ করুন</string>
+    <string name="no_group_created">ডিভাইসে কোনও যোগাযোগ গ্রুপ নেই</string>
+    <string name="create_group">গ্রুপ তৈরি করুন</string>
+    <string name="add_to_group">গ্রুপে যোগ করুন</string>
+    <string name="create_group_under_account">অ্যাকাউন্টের অধীনে গ্রুপ তৈরি করুন</string>
+
+    <!-- Photo -->
+    <string name="remove_photo">ছবি সরান</string>
+    <string name="change_photo">ছবি পরিবর্তন করুন</string>
+
+    <!-- Settings -->
+    <string name="show_phone_numbers">ফোন নম্বর দেখান</string>
+    <string name="show_contact_thumbnails">যোগাযোগের থাম্বনেইল দেখান</string>
+    <string name="format_phone_numbers">ফোন নম্বর ফরম্যাট করুন</string>
+    <string name="show_dialpad_button">প্রধান স্ক্রিনে ডায়ালপ্যাড বোতাম দেখান</string>
+    <string name="on_contact_click">যোগাযোগে ক্লিক করলে</string>
+    <string name="call_contact">যোগাযোগে কল করুন</string>
+    <string name="view_contact">যোগাযোগের বিবরণ দেখুন</string>
+    <string name="manage_shown_contact_fields">প্রদর্শিত যোগাযোগ ক্ষেত্রগুলি পরিচালনা করুন</string>
+    <string name="contacts">যোগাযোগসমূহ</string>
+    <string name="show_only_contacts_with_numbers">শুধুমাত্র ফোন নম্বরসহ যোগাযোগ দেখান</string>
+    <string name="merge_duplicate_contacts">ডুপ্লিকেট যোগাযোগ একত্র করুন</string>
+
+    <!-- Favorites -->
+    <string name="no_favorites">মনে হচ্ছে আপনি এখনও কোনও প্রিয় যোগাযোগ যোগ করেননি।</string>
+    <string name="toggle_favorite">প্রিয়তে যোগ/সরান</string>
+
+    <!-- Search -->
+    <string name="search_contacts">যোগাযোগ অনুসন্ধান করুন</string>
+    <string name="search_favorites">প্রিয় অনুসন্ধান করুন</string>
+    <string name="search_groups">গ্রুপ অনুসন্ধান করুন</string>
+
+    <!-- Export / Import -->
+    <string name="import_contacts">যোগাযোগ আমদানি করুন</string>
+    <string name="export_contacts">যোগাযোগ রপ্তানি করুন</string>
+    <string name="import_contacts_from_vcf">.vcf ফাইল থেকে যোগাযোগ আমদানি করুন</string>
+    <string name="export_contacts_to_vcf">যোগাযোগ .vcf ফাইলে রপ্তানি করুন</string>
+    <string name="target_contact_source">লক্ষ্য যোগাযোগ উৎস</string>
+    <string name="include_contact_sources">যোগাযোগ উৎস অন্তর্ভুক্ত করুন</string>
+    <string name="filename_without_vcf">ফাইলের নাম (.vcf ছাড়া)</string>
+
+    <!-- Dialpad -->
+    <string name="dialpad">ডায়ালপ্যাড</string>
+    <string name="add_number_to_contact">যোগাযোগে নম্বর যোগ করুন</string>
+
+    <!-- Visible fields -->
+    <string name="prefix">প্রিফিক্স</string>
+    <string name="suffix">সাফিক্স</string>
+    <string name="phone_numbers">ফোন নম্বরসমূহ</string>
+    <string name="emails">ইমেলসমূহ</string>
+    <string name="addresses">ঠিকানাসমূহ</string>
+    <string name="structured_addresses">গঠিত ঠিকানা (সম্পাদনা মোড)</string>
+    <string name="events">ইভেন্ট (জন্মদিন, বার্ষিকী)</string>
+    <string name="organization">সংগঠন</string>
+    <string name="websites">ওয়েবসাইটসমূহ</string>
+    <string name="groups">গ্রুপসমূহ</string>
+    <string name="contact_source">যোগাযোগ উৎস</string>
+    <string name="instant_messaging">ইনস্ট্যান্ট মেসেজিং (IM)</string>
+    <string name="ringtone">রিংটোন</string>
+
+    <!-- Confirmation dialog -->
+    <string name="delete_from_all_sources">যোগাযোগ সমস্ত উৎস থেকে সরানো হবে।</string>
+
+    <plurals name="delete_groups">
+        <item quantity="one">%d গ্রুপ</item>
+        <item quantity="other">%d গ্রুপ</item>
+    </plurals>
+
+    <string name="text_privacy_desc_2" translatable="false">By continuing, you agree to the our Privacy Policy</string>
+    <string name="add_phone_number">ফোন নম্বর যোগ করুন</string>
+    <string name="add_email">ইমেইল যোগ করুন</string>
+    <string name="add_address">ঠিকানা যোগ করুন</string>
+    <string name="add_im">IM যোগ করুন</string>
+    <string name="add_birthday">জন্মদিন যোগ করুন</string>
+    <string name="add_website">ওয়েবসাইট যোগ করুন</string>
+    <string name="add_group">গ্রুপ যোগ করুন</string>
+
+
+    <string name="need_some_permission_for_smothly_exeperience">মসৃণ অভিজ্ঞতার জন্য কিছু অনুমতি প্রয়োজন</string>
+    <string name="allow">অনুমতি দিন</string>
+    <string name="almost_there_njust_one_more_step">প্রায় শেষ!\nআর মাত্র একটি ধাপ</string>
+    <string name="view_caller_details_instantly_after_every_call_helping_you_stay_organized_and_efficient_allow_this_app_to_appear_over_others_for_quick_replies_and_seamless_access">প্রতিটি কলের পর সাথে সাথে কলারের তথ্য দেখুন, যা আপনাকে সংগঠিত ও দক্ষ থাকতে সাহায্য করবে। দ্রুত উত্তর এবং সহজ ব্যবহারের জন্য এই অ্যাপটিকে অন্য অ্যাপের উপরে দেখানোর অনুমতি দিন।</string>
+    <string name="why_this_is_needed">💡 কেন এটি প্রয়োজন</string>
+    <string name="enable_after_call_features_for_a_better_experience_n_quick_access_after_calls">• ভালো অভিজ্ঞতার জন্য কল-পরবর্তী ফিচার চালু করুন\n• কলের পর দ্রুত অ্যাক্সেস</string>
+    <string name="allow_permission">অনুমতি দিন</string>
+
+
+
+</resources>

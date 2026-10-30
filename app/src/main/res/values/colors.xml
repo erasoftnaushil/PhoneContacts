@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#FFCC00</color>
+    <color name="per_icon_tint">#FFFFFF</color>
+    <color name="green_button">#42B044</color>
+
+    <color name="search_hint_color">@color/md_blue</color>
+
+    <color name="mm_black">#000000</color>
+<!--    <color name="black">#000000</color>-->
+<!--    <color name="color_primary">@color/yellow</color>-->
+
+    <color name="save_summry">#565F66</color>
+    <color name="welcome_icon_bg">#F1F3F5</color>
+
+    <!-- Home & Call History Redesign Colors -->
+    <color name="home_page_bg">#F5F7FB</color>
+    <color name="home_search_bg">#DCE6F4</color>
+    <color name="home_search_hint">#5A6578</color>
+    <color name="home_primary_blue">#A2DAFF</color>
+    <color name="home_fab_add_bg">#9AC7F7</color>
+    <color name="home_fab_add_icon">#111827</color>
+    <color name="home_chip_unselected_bg">#DCE6F4</color>
+    <color name="home_chip_unselected_text">#2D3648</color>
+    <color name="home_section_header_text">#111827</color>
+    <color name="home_card_bg">#FFFFFF</color>
+    <color name="home_item_title_text">#111827</color>
+    <color name="home_item_subtitle_text">#5A6578</color>
+    <color name="home_item_divider">#E5EAF2</color>
+    <color name="home_call_btn_bg">#E8F8EE</color>
+    <color name="home_call_btn_icon">#1E293B</color>
+    <color name="home_chevron_tint">#8E98A8</color>
+    <color name="home_bottom_nav_bg">#DDE9F6</color>
+    <color name="home_bottom_nav_pill">#9AC7F7</color>
+    <color name="home_bottom_nav_unselected">#1E293B</color>
+</resources>

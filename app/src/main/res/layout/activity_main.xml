@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_page_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/black"
+            android:visibility="gone" />
+
+        <org.fossify.commons.views.MySearchMenu
+            android:id="@+id/main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/rlOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_menu"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/permission_bg"
+            android:padding="@dimen/_10sdp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:text="@string/need_some_permission_for_smothly_exeperience"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/enableOverlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/allow"
+                    android:textColor="@color/md_blue"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlOverlay"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <org.fossify.commons.views.MyViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/bottom_bar_container"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/main_dialpad_button"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/circle_background_home_fab"
+                android:backgroundTint="#3779FF"
+                android:contentDescription="@string/dialpad"
+                android:elevation="4dp"
+                android:padding="14dp"
+                android:src="@drawable/ic_dialpad_vector"
+                app:layout_constraintBottom_toTopOf="@+id/bottom_bar_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:tint="#ffffff" />
+
+            <ImageView
+                android:id="@+id/main_fab"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/circle_background_home_fab"
+                android:contentDescription="@string/dialpad"
+                android:elevation="4dp"
+                android:padding="14dp"
+                android:src="@drawable/ic_plus_vector"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/bottom_bar_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:tint="#111827" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/bottom_bar_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/adLayout">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/main_tabs_holder"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:minHeight="65dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bg_bottom_nav_bar"
+                        app:itemActiveIndicatorStyle="@style/BottomNavActiveIndicator"
+                        app:itemIconSize="22dp"
+                        app:itemPaddingTop="8dp"
+                        app:itemPaddingBottom="8dp"
+                        app:labelVisibilityMode="labeled" />
+
+                </RelativeLayout>
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <com.sdk.ads.ui.banner.AdsBannerView
+                android:id="@+id/adLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ad_size="adaptive"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:placement="banner_home" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
