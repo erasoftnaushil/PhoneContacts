@@ -131,7 +131,7 @@ dependencies {
 
     implementation(libs.androidx.lifecycle.viewModel)
     implementation("androidx.fragment:fragment-ktx:1.8.9")
-    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.core:core-splashscreen:1.2.0")
 
     // Permission API
     implementation(libs.retrofit)
