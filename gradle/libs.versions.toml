@@ -45,7 +45,7 @@ indicatorfastscroll = "4524cd0b61"
 glide = "4.16.0"
 glideCompose = "1.0.0-beta01"
 #Room
-room = "2.7.2"
+room = "2.8.5"
 #ezVcard
 ezVcard = "0.12.1"
 #gson
