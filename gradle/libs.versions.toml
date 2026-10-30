@@ -65,7 +65,7 @@ app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 playServicesAds = "25.4.0"
 googleGmsGoogleServices = "4.4.3"
-firebaseConfig = "23.0.0"
+firebaseConfig = "24.0.1"
 
 activity = "1.12.4"
 junit = "4.14-SNAPSHOT"
